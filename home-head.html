@@ -8,3 +8,54 @@
 <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
 <!-- [Attributes by Finsweet] CMS Load -->
 <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<style>
+.splide__pagination__page{
+background-color:#e6e6e6;
+opacity:0.6;
+width: 1rem;
+height:1rem;
+border-radius:1rem;
+transition: all 100ms ease-in;
+justify-content:flex-start;
+}
+
+.splide__pagination__page.is-active{
+background-color:#00f3b5;
+opacity:1;
+width: 3rem;
+transform:scale(1);
+}
+.splide__pagination{
+display:flex;
+grid-gap:0.5rem;
+bottom:5%;
+z-index:10;
+}
+.splide__track{
+overflow:visible;
+}
+.splide__slide.tech{
+padding-left:1rem;
+padding-right:1rem;
+}
+.splide__slide.tech.is-active{
+padding-left:0rem;
+padding-right:0rem;
+}
+.splide__arrows{
+pointer-events:none;
+z-index:10;
+}
+.splide__arrow{
+pointer-events:auto;
+}
+</style>
